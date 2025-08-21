@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
+    <link rel="stylesheet" href="stylequiz.css">
 </head>
+
 <body>
+
             <nav>
             <a href="index.html">Home</a>
             <a href="photos.html">Photos</a>
@@ -14,5 +17,19 @@
             <a href="quiz.html">Quiz</a>
             <a href="interests.html">Interests</a>
             </nav>
+
+            <h1>Interactive quiz</h1>
+            <div id="quiz">
+            <p id="question">During a court system modernization, a technical team adopted distributed architectures with microservices, using APIs for communication between components. To ensure scalability, security, and efficient communication management, the production environment also incorporates API Gateway, authentication, Service Discovery (Eureka), and a reverse proxy (Nginx or HAProxy). Considering these architectural practices, the appropriate structuring of the solution must ensure that:</p>
+            <button class="option">Communication between microservices is carried out through fixed and predefined routes, simplifying the network topology in static environments.</button>
+            <button class="option">REST APIs use JWT tokens for authentication and authorization, strengthening security in message exchange.</button>
+            <button class="option">The API Gateway concentrates input control, eliminating the need for coupled authentication functions, dynamic routing, or request rate control.</button>
+            <button class="option">The client-server architecture is maintained in intermediary services as a standard for communication between microservices, ensuring logical isolation.</button>
+            <button class="option">The reverse proxy acts primarily on the HTTP request forwarding layer, without directly interfering with load balancing or response caching.</button>
+            <p id="result"></p>
+            </div>
+
+            <script src="script.js"></script>
+
 </body>
 </html>
