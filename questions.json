@@ -1,0 +1,31 @@
+[
+    {
+        "question": "To automatically configure a server connection, follow these steps: first, in the Settings app (represented by the gear icon), select 'Network & Internet', then 'Proxy', and then:",
+        "options": [
+            "A - Click the tag next to the word 'Proxy', which will display the message 'Proxy Detected' or 'Proxy Not Detected'.",
+
+            "B - Click the tag next to the message 'Automatic proxy configuration' in the lower-right corner of the proxy window.",
+
+            "C - Under 'Proxy', click the 'Detect' button.",
+
+            "D - Under 'Automatic proxy configuration', enter the proxy address in the IP field and click the OK button.",  
+
+            "E - Under 'Automatic proxy configuration', enable 'Automatically detect settings.' "
+        ],
+        "answer": 4
+    },
+    {
+        "question": "For mail transfer agents (MTAs), what is the fundamental function of the SMTP protocol?",
+        "options": [            
+            "A - Control traffic between client and server.",
+            
+            "B - MTA Control and Monitoring.",
+            
+            "C = Sending emails.",
+            
+            "D - Downloading emails from the server to the local device.",
+            
+            "E - IP packet queue management."],
+        "answer":2
+    }
+]
