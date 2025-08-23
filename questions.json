@@ -27,5 +27,16 @@
             
             "E - IP packet queue management."],
         "answer":2
-    }
+    },
+    {
+    "question": "About computer configuration, select the correct option:",
+    "options": [
+        "A = correct
+            A 64-bit operating system can use more than 4 GB of RAM.",
+        "B - All modern processors use a universal socket and are compatible with any current motherboard.",
+        "C - The PCI Express bus is used exclusively to connect IDE hard drives.",
+        "D - The higher the RAM latency, the better the overall system performance.",
+        "E - DDR4 memory is not compatible with motherboards designed for DDR3, but it works with adaptations."],
+    "answer":0
+        },
 ]
