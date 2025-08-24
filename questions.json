@@ -29,13 +29,82 @@
         "answer":2
     },
     {
-    "question": "About computer configuration, select the correct option:",
-    "options": [
-        "A - A 64-bit operating system can use more than 4 GB of RAM.",
-        "B - All modern processors use a universal socket and are compatible with any current motherboard.",
-        "C - The PCI Express bus is used exclusively to connect IDE hard drives.",
-        "D - The higher the RAM latency, the better the overall system performance.",
-        "E - DDR4 memory is not compatible with motherboards designed for DDR3, but it works with adaptations."],
-    "answer":0
-        },
+        "question": "About computer configuration, select the correct option:",
+        "options": [
+            "A - A 64-bit operating system can use more than 4 GB of RAM.",
+
+            "B - All modern processors use a universal socket and are compatible with any current motherboard.",
+
+            "C - The PCI Express bus is used exclusively to connect IDE hard drives.",
+
+            "D - The higher the RAM latency, the better the overall system performance.",
+            "E - DDR4 memory is not compatible with motherboards designed for DDR3, but it works with adaptations."],
+        "answer":0
+    },
+    {
+        "question": "It is a fundamental component of the Linux firewall used in its configuration to analyze traffic arriving through its interfaces, make decisions to allow or block it, and monitor that traffic. Which component does the excerpt refer to?",
+        "options":[
+            "A - VPN.",
+
+            "B - MD11.",
+
+            "C - NAT.",
+
+            "D - DHCP.",
+
+            "E - IP Tables."],
+        "answer":4
+    },
+    {
+        "question": "During a court system modernization, a technical team adopted distributed architectures with microservices, using APIs for communication between components. To ensure scalability, security, and efficient communication management, the production environment also incorporates API Gateway, authentication, Service Discovery (Eureka), and a reverse proxy (Nginx or HAProxy). Considering these architectural practices, the appropriate structuring of the solution must ensure that:",
+        "options":[
+            " A - Communication between microservices is carried out through fixed and predefined routes, simplifying the network topology in static environments.",
+
+            " B - REST APIs use JWT tokens for authentication and authorization, strengthening security in message exchange.",
+
+            " C - The API Gateway concentrates input control, eliminating the need for coupled authentication functions, dynamic routing, or request rate control.",
+
+            " D - The client-server architecture is maintained in intermediary services as a standard for communication between microservices, ensuring logical isolation.",
+
+            "E - The reverse proxy acts primarily on the HTTP request forwarding layer, without directly interfering with load balancing or response caching."],
+        "answer":1
+    },
+    {
+        "question":"To allow a client to retrieve email messages from a mail server, a message access protocol is required. Which of the following is an example of such a protocol?",
+        "options":[
+            " A - POP3.",
+
+            " B - SMNP.",
+
+            " C - SMTP.",
+
+            " D - TCP.",
+
+            " E - UDP."],
+        "answer": 0
+    },
+    {
+        "question":"In a pharmacy, four computers were connected to a network using a device that enables communication through radiofrequency waves (Wi-Fi). This device operates at the data link layer of the OSI model and is called:",
+        "options":[
+            "A - Star.",
+            "B - Bus.",
+            "C - Token-ring.",
+            "D - HUB.",
+            "E - Access point."],
+        "answer": 4
+    },
+    {
+        "question":"Advanced reputation services are a threat detection feature that assesses the reputation of files, internet domains, and IP addresses, blocking access to those with a poor reputation. Which of the following lists the main types of threats identified by this service?",
+        "options":[
+            "A - Invalid, non-existent, or duplicate IP address on the network.",
+
+            "B - Invalid, non-existent, or duplicate MAC address on the network.",
+
+            "C - Unregistered program with expired or invalid user license.",
+
+            "D - Botnets, worms, and viruses.",
+            
+            "E - Attackers on web servers, unregistered users, and invalid passwords."],
+        "answer": 3    
+    }
 ]
