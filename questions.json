@@ -3,108 +3,131 @@
         "question": "To automatically configure a server connection, follow these steps: first, in the Settings app (represented by the gear icon), select 'Network & Internet', then 'Proxy', and then:",
         "options": [
             "A - Click the tag next to the word 'Proxy', which will display the message 'Proxy Detected' or 'Proxy Not Detected'.",
-
             "B - Click the tag next to the message 'Automatic proxy configuration' in the lower-right corner of the proxy window.",
-
             "C - Under 'Proxy', click the 'Detect' button.",
-
-            "D - Under 'Automatic proxy configuration', enter the proxy address in the IP field and click the OK button.",  
-
+            "D - Under 'Automatic proxy configuration', enter the proxy address in the IP field and click the OK button.",
             "E - Under 'Automatic proxy configuration', enable 'Automatically detect settings.' "
         ],
         "answer": 4
     },
     {
         "question": "For mail transfer agents (MTAs), what is the fundamental function of the SMTP protocol?",
-        "options": [            
+        "options": [
             "A - Control traffic between client and server.",
-            
             "B - MTA Control and Monitoring.",
-            
             "C = Sending emails.",
-            
             "D - Downloading emails from the server to the local device.",
-            
-            "E - IP packet queue management."],
-        "answer":2
+            "E - IP packet queue management."
+        ],
+        "answer": 2
     },
     {
         "question": "About computer configuration, select the correct option:",
         "options": [
             "A - A 64-bit operating system can use more than 4 GB of RAM.",
-
             "B - All modern processors use a universal socket and are compatible with any current motherboard.",
-
             "C - The PCI Express bus is used exclusively to connect IDE hard drives.",
-
             "D - The higher the RAM latency, the better the overall system performance.",
-            "E - DDR4 memory is not compatible with motherboards designed for DDR3, but it works with adaptations."],
-        "answer":0
-    },
-    {
-        "question": "It is a fundamental component of the Linux firewall used in its configuration to analyze traffic arriving through its interfaces, make decisions to allow or block it, and monitor that traffic. Which component does the excerpt refer to?",
-        "options":[
-            "A - VPN.",
-
-            "B - MD11.",
-
-            "C - NAT.",
-
-            "D - DHCP.",
-
-            "E - IP Tables."],
-        "answer":4
-    },
-    {
-        "question": "During a court system modernization, a technical team adopted distributed architectures with microservices, using APIs for communication between components. To ensure scalability, security, and efficient communication management, the production environment also incorporates API Gateway, authentication, Service Discovery (Eureka), and a reverse proxy (Nginx or HAProxy). Considering these architectural practices, the appropriate structuring of the solution must ensure that:",
-        "options":[
-            " A - Communication between microservices is carried out through fixed and predefined routes, simplifying the network topology in static environments.",
-
-            " B - REST APIs use JWT tokens for authentication and authorization, strengthening security in message exchange.",
-
-            " C - The API Gateway concentrates input control, eliminating the need for coupled authentication functions, dynamic routing, or request rate control.",
-
-            " D - The client-server architecture is maintained in intermediary services as a standard for communication between microservices, ensuring logical isolation.",
-
-            "E - The reverse proxy acts primarily on the HTTP request forwarding layer, without directly interfering with load balancing or response caching."],
-        "answer":1
-    },
-    {
-        "question":"To allow a client to retrieve email messages from a mail server, a message access protocol is required. Which of the following is an example of such a protocol?",
-        "options":[
-            " A - POP3.",
-
-            " B - SMNP.",
-
-            " C - SMTP.",
-
-            " D - TCP.",
-
-            " E - UDP."],
+            "E - DDR4 memory is not compatible with motherboards designed for DDR3, but it works with adaptations."
+        ],
         "answer": 0
     },
     {
-        "question":"In a pharmacy, four computers were connected to a network using a device that enables communication through radiofrequency waves (Wi-Fi). This device operates at the data link layer of the OSI model and is called:",
-        "options":[
+        "question": "It is a fundamental component of the Linux firewall used in its configuration to analyze traffic arriving through its interfaces, make decisions to allow or block it, and monitor that traffic. Which component does the excerpt refer to?",
+        "options": [
+            "A - VPN.",
+            "B - MD11.",
+            "C - NAT.",
+            "D - DHCP.",
+            "E - IP Tables."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "During a court system modernization, a technical team adopted distributed architectures with microservices, using APIs for communication between components. To ensure scalability, security, and efficient communication management, the production environment also incorporates API Gateway, authentication, Service Discovery (Eureka), and a reverse proxy (Nginx or HAProxy). Considering these architectural practices, the appropriate structuring of the solution must ensure that:",
+        "options": [
+            " A - Communication between microservices is carried out through fixed and predefined routes, simplifying the network topology in static environments.",
+            " B - REST APIs use JWT tokens for authentication and authorization, strengthening security in message exchange.",
+            " C - The API Gateway concentrates input control, eliminating the need for coupled authentication functions, dynamic routing, or request rate control.",
+            " D - The client-server architecture is maintained in intermediary services as a standard for communication between microservices, ensuring logical isolation.",
+            "E - The reverse proxy acts primarily on the HTTP request forwarding layer, without directly interfering with load balancing or response caching."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "To allow a client to retrieve email messages from a mail server, a message access protocol is required. Which of the following is an example of such a protocol?",
+        "options": [
+            " A - POP3.",
+            " B - SMNP.",
+            " C - SMTP.",
+            " D - TCP.",
+            " E - UDP."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In a pharmacy, four computers were connected to a network using a device that enables communication through radiofrequency waves (Wi-Fi). This device operates at the data link layer of the OSI model and is called:",
+        "options": [
             "A - Star.",
             "B - Bus.",
             "C - Token-ring.",
             "D - HUB.",
-            "E - Access point."],
+            "E - Access point."
+        ],
         "answer": 4
     },
     {
-        "question":"Advanced reputation services are a threat detection feature that assesses the reputation of files, internet domains, and IP addresses, blocking access to those with a poor reputation. Which of the following lists the main types of threats identified by this service?",
-        "options":[
+        "question": "Advanced reputation services are a threat detection feature that assesses the reputation of files, internet domains, and IP addresses, blocking access to those with a poor reputation. Which of the following lists the main types of threats identified by this service?",
+        "options": [
             "A - Invalid, non-existent, or duplicate IP address on the network.",
-
             "B - Invalid, non-existent, or duplicate MAC address on the network.",
-
             "C - Unregistered program with expired or invalid user license.",
-
             "D - Botnets, worms, and viruses.",
-            
-            "E - Attackers on web servers, unregistered users, and invalid passwords."],
-        "answer": 3    
+            "E - Attackers on web servers, unregistered users, and invalid passwords."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Microprocessors are the 'brain' of computers, executing instructions and processing data. Their architecture is constantly evolving, seeking higher performance and efficiency. Understanding how they work is crucial in computer science. Regarding the functioning and characteristics of current microprocessors, mark the alternative that presents a correct statement.",
+        "options": [
+            "A - The clock frequency (measured in GHz) is the only and most determining factor for a microprocessor’s performance, and its optimization is the main objective of scalable architectures, which solely aim to increase the number of instructions executed per cycle without changing the number of physical cores or logical threads.",
+            "B - The RISC (Reduced Instruction Set Computer) architecture always offers superior computational performance compared to CISC (Complex Instruction Set Computer) in all applications, because its inherent instruction complexity allows more tasks to be completed in fewer clock cycles, making it ideal for graphics processing and artificial intelligence.",
+            "C - The cache hierarchy (L1, L2, L3) exclusively aims to temporarily store large volumes of secondary storage data (HD/SSD) to reduce memory (RAM) access latency, acting as an intermediary that consolidates virtual memory and optimizes disk read/write operations.",
+            "D - Using multiple processing cores in a single chip allows parallel execution of several instruction threads, and SMT (Simultaneous Multi-threading) technology, such as Intel’s Hyper-Threading, optimizes CPU usage by allowing a single physical core to execute multiple logical threads simultaneously, sharing core resources."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "During an audit in a corporate network, the security analyst used a specialized graphical tool to inspect protocols, ports, and IP addresses involved in communications between stations. The tool also allows saving sessions and applying filters by packet type. Based on this situation, which of the following tools was most likely used?",
+        "options": [
+            "A. Wireshark.",
+            "B. Nessus.",
+            "C. PuTTY.",
+            "D. Netcat.",
+            "E. Zabbix."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Sorting algorithms are essential in computer science because they allow for efficient data organization, facilitating the search and manipulation of information in collections. Considering this, select the alternative that presents the algorithm that uses the concept of divide and conquer, dividing the list into two halves, sorting them recursively, and then combining the sorted parts.",
+        "options": [
+            "A - Heap Sort.",
+            "B - Merge Sort.",
+            "C - Insertion Sort.",
+            "D - Selection Sort.",
+            "E - Bubble Sort."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Select the option that correctly describes one of the main functions of an operating system.",
+        "options": [
+            "A - Directly manage the hardware, replacing the BIOS during boot.",
+            "B - Exclusively execute machine language programs.",
+            "C - Provide an interface between the user and the computer's physical resources",
+            "D - Offer protection only for system files, ignoring user files",
+            "E - Eliminate the need for virtual memory, even on systems with little RAM"
+        ],
+        "answer": 2
     }
 ]
