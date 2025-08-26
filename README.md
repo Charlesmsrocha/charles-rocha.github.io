@@ -1,2 +1,2 @@
 # Charles Rocha
-[Portfolio](charles-rocha.github.io) to help get a job.
+[Portfolio](https://charlesmsrocha.github.io/charles-rocha.github.io/) to help me get a job.
