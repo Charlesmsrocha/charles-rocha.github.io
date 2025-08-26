@@ -3,7 +3,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 async function loadQuestions() {
-  const response = await fetch("../questions.json");
+  const response = await fetch("questions.json");
   questions = await response.json();
   showQuestion();
 }

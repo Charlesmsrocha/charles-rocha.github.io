@@ -15,7 +15,7 @@
         "options": [
             "A - Control traffic between client and server.",
             "B - MTA Control and Monitoring.",
-            "C = Sending emails.",
+            "C - Sending emails.",
             "D - Downloading emails from the server to the local device.",
             "E - IP packet queue management."
         ],
