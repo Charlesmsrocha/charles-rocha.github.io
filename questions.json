@@ -129,5 +129,114 @@
             "E - Eliminate the need for virtual memory, even on systems with little RAM"
         ],
         "answer": 2
+    },
+    {
+        "question": "Python offers different looping structures to control the flow of execution of code blocks. The “for” loop is widely used for its simplicity and readability, especially in certain programming contexts. Based on the behavior and typical applications of the “for” loop in Python, it is appropriate to use this type of structure, EXCEPT:",
+        "options": [
+            "A. when you want to repeat indefinitely until a condition is satisfied.",
+            "B. when the number of times the block should be executed is known in advance.",
+            "C. when you want to go through all the elements of a list.",
+            "D. when you want to iterate over the characters of a string.",
+            "E. when you want to access the elements of a tuple in sequence."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "PHP is often used in the development of web applications due to its ability to handle business logic and interact with servers. Its use may vary depending on the type of project and the technologies adopted by the development team. In this context, select the correct alternative regarding the use of PHP in web and mobile application development.",
+        "options": [
+            "A. PHP is intended for creating visual interfaces, replacing languages like HTML and CSS in building the application’s layout.",
+            "B. PHP executes code directly in the user’s browser, being used to control user interaction with the interface.",
+            "C. PHP is employed in the development of native Android and iOS apps, handling all the logic directly on mobile platforms.",
+            "D. PHP acts as a back-end language, processing client requests, accessing databases, and generating dynamic content in web applications.",
+            "E. PHP is a compiled language, applied in solutions such as embedded systems and desktop programs focused on high performance."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "An university development team needs to deploy a web application in different environments, such as development, testing, and production. During this process, the team faces difficulties with differences in the configuration of each environment, which causes errors and unexpected behaviors in the application. In this scenario, select the alternative that best describes the main advantage of using Docker.",
+        "options": [
+            "A. Docker allows the creation of complete virtual machines with independent operating systems, ensuring total isolation and dedicated use of hardware resources.",
+            "B. Docker uses heavy virtualization to run multiple applications in parallel, ensuring that each one works in its own operating system.",
+            "C. Docker packages the application and its dependencies into lightweight containers, ensuring isolated and consistent execution in different environments.",
+            "D. Docker acts as a code versioning system, controlling the changes made to the application and facilitating rollback of problematic versions.",
+            "E. Docker is a tool focused on performance monitoring, allowing detailed analysis of CPU and memory usage metrics during application execution."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "During the development of a system in an university, two programmers need to work simultaneously on the same project: while one adds new features, the other fixes bugs in the existing code. To ensure that both can collaborate without overwriting each other’s changes and still track the history of modifications, the team decides to use a specific tool for this control. Based on this situation, which of the following solutions is the most appropriate?",
+        "options": [
+            "A. Use a real-time shared text editor, such as Google Docs, so that both programmers can see and modify the code simultaneously.",
+            "B. Implement a manual daily backup system, where each programmer copies the project code into a separate folder at the end of the workday.",
+            "C. Adopt a Git version control tool, which allows each programmer to work on their own copy of the code, record changes with commits, and integrate these modifications in a controlled way.",
+            "D. Communicate all changes through detailed daily meetings, where each programmer informs the modifications made to avoid future conflicts.",
+            "E. Use a project management tool to assign tasks and track each developer’s progress."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Antivirus software uses different techniques to identify, prevent, and remove digital threats. Regarding these techniques, select the correct alternative.",
+        "options": [
+            "A. The signature-based scanning method is effective at detecting previously known malware but has limitations in identifying new threats or malware variants.",
+            "B. The behavioral analysis technique examines exclusively the source code of suspicious files, ignoring their behavior at runtime.",
+            "C. The use of whitelisting in antivirus software allows the execution of any unknown program to guarantee greater user flexibility.",
+            "D. An efficient antivirus should operate only on-demand, avoiding performance impact during execution.",
+            "E. Cloud-based protection completely eliminates the need for any other detection methods, such as behavioral analysis or local signatures."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "During the execution of a microservices-based system created with Spring Cloud, the DevOps team identified the need to change the URL of an external service, which is defined as a property in the remote configuration file. The goal is to apply this new URL without restarting the client service. Given this scenario, which option correctly represents the steps or requirements to apply the new configuration successfully?",
+        "options": [
+            "A. The client must be annotated with @RefreshScope and Spring Boot Actuator must be included.",
+            "B. It is necessary to change the configuration file locally in the client and restart it.",
+            "C. The change must be made directly in the client’s application.yml.",
+            "D. The updated configurations are automatically applied to the clients, without the need for any action.",
+            "E. The configuration server must be restarted whenever a file is changed in the central configuration repository."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following virtualization technologies uses the concept of paravirtualization, allowing the guest operating system to interact optimally with the hypervisor?",
+        "options": [
+            "A. Virtual machines based on full emulation.",
+            "B. Hyper-V.",
+            "C. VMware Workstation.",
+            "D. VirtualBox.",
+            "E. Xen."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Which maturity model is used to evaluate and improve software development processes in an organization?",
+        "options": [
+            "A. ISO 9001.",
+            "B. e-MAG.",
+            "C. ePING.",
+            "D. W3C/WAI.",
+            "E. CMMI."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Regarding computer organization and architecture, some steps are systematically executed for each instruction during the typical fetch-execute cycle in a processor. Select the alternative that correctly presents the fundamental sequence of these steps in a processor based on the von Neumann architecture.",
+        "options": [
+            "A. Execution → Decode → Write → Fetch.",
+            "B. Fetch → Decode → Execute → Write.",
+            "C. Write → Fetch → Execute → Decode.",
+            "D. Decode → Fetch → Write → Execute.",
+            "E. Fetch → Write → Decode → Execute."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A support analyst, acting as Scrum Master on a cloud backup project, emphasized that events are guided by time-boxing to synchronize the team. In the retrospective, he highlighted that improvement actions are part of (1), which must be aligned with (2), and pointed out that the team is self-managing, defining “what, how, and who” does the work. Finally, he stressed that time-boxing strengthens the (3) cycle.",
+        "options": [
+            "A. (1) Increment (2) Product Goal (3) Inspection",
+            "B. (1) Sprint Goal (2) Product Backlog (3) Adaptation",
+            "C. (1) Sprint Backlog (2) Product Goal (3) Transparency",
+            "D. (1) Sprint Goal (2) Product Goal (3) Inspection and Adaptation"
+        ],
+        "answer": 3
     }
 ]
