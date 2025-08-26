@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Charles Rocha - CV</title>
     <link rel="stylesheet" href="../_css/style.css" />
+    <script src="../_js/script.js"></script>
+
+    <script type="module">
+  import { createClient } from 'https://esm.sh/@supabase/supabase-js'
+
+  // Initializing Supabase
+  const supabaseUrl = 'https://tyncdrzfuayzkuyhfbfp.supabase.co'
+  const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR5bmNkcnpmdWF5emt1eWhmYmZwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYxNTQwNDcsImV4cCI6MjA3MTczMDA0N30.Ap5hXVujv0L3EWt2rDAUw1fktj_mE5OBQHdRbdldfXk'  // from Supabase dashboard
+  const supabase = createClient(supabaseUrl, supabaseKey)
+
+  // Example: fetch posts
+  const { data, error } = await supabase
+    .from('posts')
+    .select('*')
+
+  console.log(data)
+</script>
+
   </head>
   <body>
     <header>
       <nav id="menu">
-        <a href="../_html/index.html">Home</a>
-        <a href="../_html/photos.html">Photos</a>
-        <a href="../_html/videos.html">Videos</a>
-        <a href="../_html/contact.html">Contact</a>
-        <a href="../_html/quiz.html">Quiz</a>
-        <a href="../_html/interests.html">Interests</a>
+        <a href="index.html">Home</a>
+        <a href="_html/photos.html">Photos</a>
+        <a href="_html/videos.html">Videos</a>
+        <a href="_html/contact.html">Contact</a>
+        <a href="_html/quiz.html">Quiz</a>
+        <a href="_html/interests.html">Interests</a>
       </nav>
 
       <h1>Charles Rocha</h1>
