@@ -19,6 +19,42 @@
       </nav>
     </header>
 
+      <div class="container">
+    <header>
+      <h1>Quiz Demo</h1>
+      <div id="userPill" class="pill hidden">
+        <span id="userEmail"></span>
+        <button id="signOutBtn">Sign out</button>
+      </div>
+    </header>
+
+    <!-- Auth -->
+    <section id="authCard" class="card">
+      <h2>Login / Sign up</h2>
+      <input id="email" type="email" placeholder="Email">
+      <input id="password" type="password" placeholder="Password">
+      <button id="signupBtn">Sign up</button>
+      <button id="loginBtn">Log in</button>
+      <div id="authStatus" class="status"></div>
+    </section>
+
+    <!-- Quiz -->
+    <section id="quizCard" class="card hidden">
+      <h2>Take the Quiz</h2>
+      <form id="quizForm"></form>
+      <button id="submitQuizBtn">Submit answers</button>
+      <div id="quizStatus" class="status"></div>
+    </section>
+
+    <!-- Results -->
+    <section id="resultsCard" class="card hidden">
+      <h2>Your Results</h2>
+      <ul id="resultsList"></ul>
+    </section>
+  </div>
+
+  <script type="module" src="main.js"></script>
+
     <h1>IT Quiz</h1>
 
     <div class="quiz-container">

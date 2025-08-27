@@ -11,7 +11,7 @@
         "answer": 4
     },
     {
-        "question": "For mail transfer agents (MTAs), what is the fundamental function of the SMTP protocol?",
+        "question": "About mail transfer agents (MTAs), what is the fundamental function of the SMTP protocol?",
         "options": [
             "A - Control traffic between client and server.",
             "B - MTA Control and Monitoring.",
@@ -133,11 +133,11 @@
     {
         "question": "Python offers different looping structures to control the flow of execution of code blocks. The “for” loop is widely used for its simplicity and readability, especially in certain programming contexts. Based on the behavior and typical applications of the “for” loop in Python, it is appropriate to use this type of structure, EXCEPT:",
         "options": [
-            "A. when you want to repeat indefinitely until a condition is satisfied.",
-            "B. when the number of times the block should be executed is known in advance.",
-            "C. when you want to go through all the elements of a list.",
-            "D. when you want to iterate over the characters of a string.",
-            "E. when you want to access the elements of a tuple in sequence."
+            "A. When you want to repeat indefinitely until a condition is satisfied.",
+            "B. When the number of times the block should be executed is known in advance.",
+            "C. When you want to go through all the elements of a list.",
+            "D. When you want to iterate over the characters of a string.",
+            "E. When you want to access the elements of a tuple in sequence."
         ],
         "answer": 0
     },
@@ -236,6 +236,116 @@
             "B. (1) Sprint Goal (2) Product Backlog (3) Adaptation",
             "C. (1) Sprint Backlog (2) Product Goal (3) Transparency",
             "D. (1) Sprint Goal (2) Product Goal (3) Inspection and Adaptation"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "An Analyst needs to justify the adoption of Wi-Fi 6 technology as a solution to improve network mobility in a Department of Finance. As justification, he stated that Wi-Fi 6:",
+        "options": [
+            "A. abandons beamforming, adopting omnidirectional transmission for greater coverage.",
+            "B. uses MDM as a security standard and WPA3 as the authentication, authorization, and auditing algorithm.",
+            "C. implements OFDMA (Orthogonal Frequency-Division Multiple Access), allowing efficient transmission for multiple devices at the same time.",
+            "D. eliminates the use of the 5 GHz band, operating exclusively at 2.4 GHz for greater stability and range.",
+            "E. reduces the capacity for simultaneous device connections, prioritizing only higher speeds for a single user."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "On a Windows Server, an analyst ran ipconfig and obtained the following IP addresses configured on an Ethernet NIC.\n         2804:1cc:abbb:38f3:dd23:6205:ffdd:1efa\n         fe80::1f91:6d7f:c415:34ec\n         192.168.10.1\n         255.255.255.0\n         Considering the server has access to the local network and the internet via both IPv4 and IPv6, the analyst correctly concluded that:",
+        "options": [
+            "A. addresses 2 and 4 are 64 and 32 bits long, respectively.",
+            "B. packets to destination addresses 2 and 3 will be routed on the internet.",
+            "C. addresses 1 and 2 are link-local and global-routing types, respectively.",
+            "D. addresses 1 and 3 are global unicast and private types, respectively.",
+            "E. addresses 1 and 3 are IPv4 and IPv6 types, respectively."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Both Kubernetes and Docker are open-source container technologies. However, they are fundamentally different in how they work and the role they play in distributing containerized applications. Therefore, it is correct to state that:",
+        "options": [
+            "A. Docker is used to run production-level applications in the cloud, while Kubernetes is used for editing and managing container images.",
+            "B. Kubernetes is used to manage multiple microservices at large scale. Each microservice is individually composed of several containers.",
+            "C. Kubernetes builds and Compose can be used together to create container images and to define and run multi-container applications, respectively.",
+            "D. Docker works by managing a cluster of compute instances. It schedules container execution in the cluster based on available resources and each container’s requirements.",
+            "E. Docker is a container orchestration tool, while Kubernetes is a container technology stack to create and run containers."
+        ],
+        "answer":1
+    },
+    {
+        "question": "The Linux network administrator of a Department of Finance defined access controls for applications, processes, and files on the Red Hat Enterprise Linux server through SELinux.",
+        "options": [
+            "A. which works as a firewall for the entire Linux network, allowing or denying traffic through the server.",
+            "B. which are applied through the rwx permissions of the chmod and chown commands.",
+            "C. which are sets of rules that tell SELinux what can or cannot be accessed according to the permissions of a policy.",
+            "D. which are applied only to non-root users, since root users always have full system access.",
+            "E. whose rules completely replace the traditional Linux permissions (rwx), making commands like chmod and chown inoperative."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "An analyst needs to enable the management of configurations and settings for users and computers on machines running Windows Server and Windows Client automatically across all computers on the network from the server. To do this, he can perform the task through:",
+        "options": [
+            "A. Group Policy (GPO) in Active Directory.",
+            "B. Local policies of the domain controller.",
+            "C. Startup script installed in the boot of each network computer.",
+            "D. Logon script installed on each client computer after accessing them via SSH.",
+            "E. User profiles contained in the server manager."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A specific benefit of multidimensional modeling for government oversight agencies is:",
+        "options": [
+            "A. greater transparency and auditing of public spending.",
+            "B. elimination of fraud in administrative processes.",
+            "C. improvement in the execution of public banking transactions.",
+            "D. faster execution of legal processes.",
+            "E. reduction in the time to register new public servants."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "An Analyst from a Department of Finance is explaining to her team about the Hadoop framework, clarifying that the main benefit of its application in tax data analysis by the Department is:",
+        "options": [
+            "A. efficient identification of fraud and tax evasion.",
+            "B. reduction in data collection time.",
+            "C. reduction of costs and parallel latency.",
+            "D. improvement in the accuracy of tax forecasts.",
+            "E. increase in data security."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A technology team of a state public organization is developing an interactive educational portal. They decided to include a feature where users can draw simple geometric shapes, such as circles and squares, directly in the browser. For this, it was suggested to use the element:",
+        "options": [
+            "A. The <canvas> can only be used for complex animations, such as games, and is not suitable for simple drawings like basic geometric shapes.",
+            "B. The getContext(\"2d\") method is essential for drawing on <canvas> because it provides an API that allows manipulation of two-dimensional graphics.",
+            "C. The <canvas> element can be used without JavaScript, since it has native HTML5 methods to draw shapes like rectangles and circles directly in the HTML code.",
+            "D. The <canvas> element completely replaces the use of SVG images, since it offers greater control over raster graphics directly in the browser.",
+            "E. For <canvas> to work correctly, it is necessary to define the width and height attributes in CSS, since the element does not accept these properties directly in HTML."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Sensitive customer data is being transmitted between a data center and a business unit via the internet. Considering information security best practices, the most appropriate way to ensure protection of this data during transmission and storage is:",
+        "options": [
+            "A. an API with HTTPS (TLS) and, at the source and destination, the databases use disk encryption (AES-256) to protect the data even in case of physical theft of the devices.",
+            "B. direct transfer of AES-128 encrypted files over HTTP links, ensuring performance without fully compromising security.",
+            "C. an API protected with SSL and, in storage, using data compression to minimize risks in case of unauthorized disk access.",
+            "D. an IPsec VPN between the servers, without the need for additional database encryption, since the VPN already ensures confidentiality and integrity of the data.",
+            "E. a REST API authenticated with JWT tokens, ensuring data protection in transit and storing the data in databases protected by authentication."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A state oversight agency is implementing a risk management program in information security using SWOT analysis with a focus on risks. During the first meeting, the executive committee identified that the agency has a highly qualified IT team, but the backup policy is still manual and poorly documented. In addition, there is an increase in phishing attacks targeted at public agencies. In the SWOT analysis with a focus on risks, considering the elements presented, the IT team is classified as:",
+        "options": [
+            "A. a strength; the backup policy as a threat; phishing attacks as an opportunity.",
+            "B. an opportunity; the backup policy as a strength; phishing attacks as a weakness.",
+            "C. a weakness; the backup policy as an opportunity; phishing attacks as a threat.",
+            "D. a strength; the backup policy as a weakness; phishing attacks as a threat.",
+            "E. a threat; the backup policy as a strength; phishing attacks as a weakness."
         ],
         "answer": 3
     }
