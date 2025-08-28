@@ -71,3 +71,10 @@ nav#menu a:hover {
   color: aqua;
   text-decoration: underline;
 }
+
+.site {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
+}

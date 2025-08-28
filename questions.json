@@ -270,7 +270,7 @@
             "D. Docker works by managing a cluster of compute instances. It schedules container execution in the cluster based on available resources and each container’s requirements.",
             "E. Docker is a container orchestration tool, while Kubernetes is a container technology stack to create and run containers."
         ],
-        "answer":1
+        "answer": 1
     },
     {
         "question": "The Linux network administrator of a Department of Finance defined access controls for applications, processes, and files on the Red Hat Enterprise Linux server through SELinux.",
@@ -348,5 +348,104 @@
             "E. a threat; the backup policy as a strength; phishing attacks as a weakness."
         ],
         "answer": 3
+    },
+    {
+        "question": "In the Python ecosystem, several libraries are widely used for different tasks in data science, machine learning, and natural language processing (NLP). Considering the characteristics and applications of these libraries, select the alternative that describes the main functionality of one of them:",
+        "options": [
+            "A. spaCy is a library specialized in Natural Language Processing (NLP), offering support for tokenization, lemmatization, named entity recognition, and pre-trained language models.",
+            "B. TensorFlow is a library focused on handling and analyzing tabular data, offering native support for SQL queries and efficient operations with DataFrames.",
+            "C. Apache Arrow is a framework focused on creating and optimizing deep neural networks, providing layers and activation functions for deep learning model training.",
+            "D. Scikit-learn (Sklearn) is a library developed for advanced data visualization, with support for interactive charts and dynamic dashboard construction.",
+            "E. PyTorch is a library specialized exclusively in file manipulation and accelerating read/write operations, without application for machine learning or neural networks."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Consider a Systems Analyst specialized in Data Science, assigned to analyze large volumes of free text from customer interactions with the company, including messages sent by chat and social networks, with the goal of extracting insights about customer satisfaction. These texts are classified as which type of data?",
+        "options": [
+            "A. Structured",
+            "B. Semi-structured",
+            "C. Quantitative",
+            "D. Unstructured",
+            "E. Ordinal"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In hospital networks, unauthorized access to confidential data may occur due to:",
+        "options": [
+            "A. Processor failure of the equipment.",
+            "B. Installation of outdated drivers.",
+            "C. Excess of files stored locally.",
+            "D. Social engineering attacks, such as phishing.",
+            "E. Preventive maintenance of network devices."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The storage of medical data in cloud services requires:",
+        "options": [
+            "A. Mandatory compression of files in .zip format.",
+            "B. Connection with local servers of the hospital network.",
+            "C. Secure authentication and compliance with data protection regulations.",
+            "D. Installation of a cloud-specific operating system.",
+            "E. Only email and password."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In ASP.NET Core applications, select the alternative that describes the behavior of a service registered with a scoped lifetime in the dependency injection container:",
+        "options": [
+            "A. A new instance is created for each controller or Razor Page that requests the service.",
+            "B. A new instance is created every time the service is requested from the dependency injection container.",
+            "C. A single instance is created and maintained for the entire lifetime of the application.",
+            "D. A single instance of the service is created and maintained across different requests that use the same thread until the application stops execution.",
+            "E. A new instance is created for each HTTP request, being shared among the components within the same request scope."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "In the development of .NET Core applications (and newer .NET versions), the Generic Host model was introduced as a flexible and extensible way to configure and run applications. Based on this model, it is correct to state that the main advantage of the Generic Host is:",
+        "options": [
+            "A. To be exclusive for running Windows Services, offering optimized resources for that specific environment.",
+            "B. To provide significantly superior performance when hosting web applications compared to IIS (Internet Information Services).",
+            "C. To unify the way of hosting different types of applications, such as web (APIs, WebApps), console services, workers, and others, under the same configuration and lifecycle model.",
+            "D. To restrict support only to web applications, simplifying configuration for that application type.",
+            "E. To offer native and enhanced support for WebForms technology within the .NET Core ecosystem."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In information security systems, different cryptographic techniques offer distinct guarantees for data protection. A common requirement is to allow third parties to verify the authenticity and integrity of a message, without needing access to its original content. Considering this need, select the cryptographic technique that meets these requirements:",
+        "options": [
+            "A. Steganography.",
+            "B. Asymmetric cryptography with separate signing and verification.",
+            "C. Stream cipher encryption.",
+            "D. Cryptographic hash functions with salt.",
+            "E. Symmetric encryption with a shared key."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "An IT analyst is configuring the UFW (Uncomplicated Firewall) on their Ubuntu machine to improve the security of SSH access. The goal is to allow SSH connections (TCP port 22) exclusively from the IP address 192.168.1.100. Select the UFW command that meets this specific configuration:",
+        "options": [
+            "A. sudo ufw insert 1 deny 22 && sudo ufw allow from 192.168.1.100/32 proto tcp.",
+            "B. sudo ufw route allow from 192.168.1.100 proto tcp to port 22.",
+            "C. sudo ufw limit 192.168.1.100:22 proto tcp.",
+            "D. sudo ufw add rule allow 22/tcp from 192.168.1.100 port 22 proto tcp.",
+            "E. sudo ufw allow from 192.168.1.100 to any port 22 proto tcp."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Select the alternative that corresponds to a fundamental practice of Kanban to improve workflow management.",
+        "options": [
+            "A. Define a fixed schedule with mandatory weekly deliveries.",
+            "B. Limit the number of tasks in progress to avoid team overload.",
+            "C. Require that all tasks be completed before starting new ones.",
+            "D. Use only weekly meetings to control progress.",
+            "E. Prioritize tasks based exclusively on the manager’s opinion."
+        ],
+        "answer": 1
     }
 ]
