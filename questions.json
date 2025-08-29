@@ -447,5 +447,104 @@
             "E. Prioritize tasks based exclusively on the manager’s opinion."
         ],
         "answer": 1
+    },
+    {
+        "question": "Consider an environment where users need to manage permissions, update hardware drivers, and use administrative tools to monitor operating system performance.  Based on these actions, which of the systems below offers robust support for this type of management?",
+        "options": [
+            "A. Android",
+            "B. Windows",
+            "C. MS-DOS",
+            "D. iOS",
+            "E. BIOS"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Regarding customer service and technical support methodologies, mark the option that presents a recommended practice to ensure efficiency in the first contact with the user during a support service.",
+        "options": [
+            "A. Avoid registering the ticket during the first contact, prioritizing immediate resolution to make the process more agile.",
+            "B. Provide generic and automatic responses in the first contact, quickly transferring the case to another level of technical support.",
+            "C. Avoid repeating the problem reported in order not to waste time.",
+            "D. Always prioritize the most complex tickets, even with low impact.",
+            "E. Register all interactions with the user in the ticketing system."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "The OSI Model is a conceptual model that allows communication between different computer systems and networks. Which OSI layers below best represent the following protocols: IP, HTTP, and TCP?",
+        "options": [
+            "A. Layer 4, Layer 7, and Layer 3.",
+            "B. Layer 4, Layer 7, and Layer 3.",
+            "C. Layer 3, Layer 1, and Layer 5.",
+            "D. Layer 2, Layer 1, and Layer 3.",
+            "E. Layer 3, Layer 7, and Layer 4."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "When developing an application in any language (Java, Python, PHP) that interacts with a database, the extensive use of annotations for ORM mapping (instead of XML or programmatic configurations) mainly contributes to:",
+        "options": [
+            "A. Reducing code complexity, increasing readability, and centralizing persistence configurations within the entity classes.",
+            "B. Improving SQL query performance by up to 50%.",
+            "C. Completely eliminating the need for any database connection.",
+            "D. Ensuring application compatibility with any DBMS version without the need for specific drivers.",
+            "E. Automatically protecting data against SQL injection attacks, regardless of how queries are built."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In Python, when using an ORM like SQLAlchemy (or Django ORM), the concept equivalent to 'annotations' to map classes to tables and attributes to columns is often implemented through:",
+        "options": [
+            "A. Specific line comments that are interpreted by the ORM.",
+            "B. Abstract base classes that contain the mapping logic.",
+            "C. External XML configuration files describing the mapping.",
+            "D. Decorators applied to classes and methods, and functions for column definition.",
+            "E. Static methods inside the classes that return the database structure."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following annotations is commonly used in Java (JPA) to indicate that an attribute of an entity should not be persisted in the database, i.e., should be ignored by the ORM during persistence operations?",
+        "options": [
+            "A. @Ignore",
+            "B. @NonPersistent",
+            "C. @Volatile",
+            "D. @Excluded",
+            "E. @Transient"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "In the context of Java and ORM frameworks such as JPA/Hibernate for database access, which annotation is used to indicate that a Java class represents a persistent entity that will be mapped to a table in the database?",
+        "options": [
+            "A. @Persistent",
+            "B. @Table",
+            "C. @DatabaseObject",
+            "D. @Mapping",
+            "E. @Entity"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Considering the use of the @Wire annotation in the ZK Framework 9+, what is its main purpose in a ViewModel or Controller?",
+        "options": [
+            "A. Declare a new custom ZK component class.",
+            "B. Automatically inject backend service instances into the ViewModel.",
+            "C. Connect a ZK component defined in a ZUL file to an instance variable in a ViewModel/Controller.",
+            "D. Define the loading order of ZUL files in the application.",
+            "E. Mark a method as an entry point for HTTP request processing."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In network IP addressing, the binary operation is fundamental to determine network addresses, host addresses, and subnet masks. Mark the CORRECT alternative for the binary operation used to determine the network address from the IP and mask.",
+        "options": [
+            "A. XOR",
+            "B. AND",
+            "C. NOT",
+            "D. OR",
+            "E. NAND"
+        ],
+        "answer": 1
     }
 ]
