@@ -546,5 +546,104 @@
             "E. NAND"
         ],
         "answer": 1
+    },
+    {
+        "question": "When deciding on the creation of indexes to optimize the performance of a relational database, several guidelines are considered. Which of the following guidelines is relevant in choosing the type of index to be used or in its configuration?",
+        "options": [
+            "A. Hash indexes are generally the most efficient choice for queries involving ranges of values, such as BETWEEN or <.",
+            "B. In an RDBMS, it is possible to create multiple clustering indexes on the same table to cover different physical ordering needs.",
+            "C. The main benefit of a clustering index is to answer queries only by scanning the index, without accessing the data records.",
+            "D. The decision to establish a clustering index should consider the need to keep the file physically ordered according to the attribute, which benefits range queries.",
+            "E. It is recommended to create indexes for all attributes of a table in order to maximize the efficiency of all queries."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The SQL language is widely used for querying data in relational databases and has conceptual parallels with relational algebra. Based on the correspondence between SQL clauses and the fundamental operations of relational algebra, analyze the following statements and mark the correct alternative:",
+        "options": [
+            "A. The FROM clause performs the projection operation, listing the attributes to be displayed, while SELECT executes the selection operation by defining filters.",
+            "B. The WHERE clause has a function equivalent to the Cartesian join of relational algebra, while SELECT performs the union operation.",
+            "C. The SELECT clause performs tuple selection, while the FROM clause determines the projection of columns from the indicated relation.",
+            "D. SELECT and FROM have no direct correspondence with relational algebra, since SQL is a declarative language and relational algebra is procedural.",
+            "E. The SELECT clause is associated with the projection operation, as it defines the attributes that should compose the result; the WHERE clause is associated with the selection operation, determining the subset of tuples that satisfy a logical condition."
+        ],
+        "answer": 4
+    },
+    {
+       "question": "In modern operating systems, each process is controlled and monitored by specific system structures. Mark the alternative that correctly describes what happens when a process enters the \"ready\" state.",
+       "options": [
+           "A. The process is waiting for the completion of an input or output operation.",
+           "B. The process has finished and is releasing system resources.",
+           "C. The process is waiting to be allocated by the processor for execution.",
+           "D. The process is currently being executed by the processor.",
+           "E. The process is in permanent suspension due to a critical error."
+       ],
+       "answer": 2
+    },
+    {
+        "question": "About event-driven programming, it is correct to say that:",
+        "options": [
+            "A. The program executes all tasks in parallel, with multiple simultaneous outputs.",
+            "B. The program is structured as a fixed sequence of instructions, executed in linear order.",
+            "C. Each module of the application is executed in constant time, regardless of user input.",
+            "D. Events are pre-scheduled and do not depend on user or environment interaction.",
+            "E. The execution of the code is determined by the occurrence of events, such as mouse clicks or keyboard input."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Mark the alternative that correctly indicates the difference between verification and validation in software engineering.",
+        "options": [
+            "A. Verification occurs after system deployment; validation, before the start of the project.",
+            "B. Verification checks whether the product is being built correctly; validation checks whether the right product is being built.",
+            "C. Verification is performed by end users; validation, only by developers.",
+            "D. Verification tests usability; validation tests exclusively performance.",
+            "E. Verification uses automated tests; validation is restricted to manual tests."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Consider a relational database with a table called Employees that has the fields: id, name, department, and salary. To increase the salary of all employees in the \"Sales\" department by 10%, which SQL command should be used?",
+        "options": [
+            "A. MODIFY Employees SET salary = salary + 10 WHERE department = 'Sales';",
+            "B. ALTER TABLE Employees SET salary = salary * 1.1 WHERE department = 'Sales';",
+            "C. UPDATE Employees SET salary = salary * 1.1 WHERE department = 'Sales';",
+            "D. INSERT INTO Employees (salary) VALUES (salary * 1.1) WHERE department = 'Sales';",
+            "E. SELECT salary * 1.1 FROM Employees WHERE department = 'Sales';"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Database Management Systems (DBMS) offer features that ensure multiple users can access and modify data simultaneously without compromising consistency. In this context, what mechanism is used by DBMS to guarantee concurrency control?",
+        "options": [
+            "A. Locking (lock)",
+            "B. Incremental backup",
+            "C. Data replication",
+            "D. Server clustering",
+            "E. B+ tree indexing"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A retail network needs to analyze consumer trends and sales patterns over time. However, its operational database does not support complex queries for strategic decision-making. The solution that can consolidate large volumes of historical data and facilitate detailed analyses is a:",
+        "options": [
+            "A. Operational database used for daily transactions.",
+            "B. Relational database model used to store large volumes of data.",
+            "C. Software to manage database backups.",
+            "D. File management system for local storage.",
+            "E. Centralized data repository designed for analysis and decision-making."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "A developer is creating an order management system in PHP and needs to organize functionalities into reusable modules. To do this, they decide to structure their code using object-oriented programming, ensuring better organization and reuse of system components. Mark the alternative that corresponds to the syntax the developer should use to correctly declare a class in PHP.",
+        "options": [
+            "A. class ClassName {}",
+            "B. define ClassName {}",
+            "C. new ClassName {}",
+            "D. create ClassName {}",
+            "E. object ClassName {}"
+        ],
+        "answer": 0
     }
 ]
