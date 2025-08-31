@@ -645,5 +645,118 @@
             "E. object ClassName {}"
         ],
         "answer": 0
+    },
+    {
+        "question": "About Bluetooth technology, it is INCORRECT to state that:",
+        "options": [
+            "A. It is a technology for wireless LANs (WLANs) developed to connect various types of devices with different functions, such as phones, notebooks, desktop and laptop computers, cameras, printers, etc.",
+            "B. It is an ad hoc network, that is, it is formed spontaneously; devices, sometimes called gadgets, locate each other and create a network called a piconet.",
+            "C. A Bluetooth LAN can be connected to the internet if one of the gadgets has this capability.",
+            "D. By nature, a Bluetooth LAN can be large.",
+            "E. It is based on the implementation of a protocol specified by the IEEE 802.15 standard, which defines a PAN (Personal Area Network) operable in an area the size of a room or a hall."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What are the advantages of a wireless network (Wi-Fi)?",
+        "options": [
+            "A. Convenience, mobility, productivity, easy setup, expandability, security, and reduced cost.",
+            "B. Convenience, mobility, consistent speed, easy setup, expandability, security, and reduced cost.",
+            "C. Convenience, mobility, productivity, easy setup, lower latency, security, and reduced cost.",
+            "D. Mobility, consistent speed, productivity, easy setup, expandability, greater reliability, and reduced cost.",
+            "E. Consistent speed, mobility, productivity, easy setup, expandability, security, and reduced cost."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Data communication between two devices has limited application. When communication is established between more than two devices, a data communication network is built. Data communication networks can be classified according to the distance range, involving different technologies and mechanisms. The classification of networks according to their distance, from smallest to largest range, is:",
+        "options": [
+            "A. MAN, LAN, and WAN.",
+            "B. LAN, MAN, and WAN.",
+            "C. WAN, MAN, and LAN.",
+            "D. LAN, WAN, and MAN.",
+            "E. MAN, WAN, and LAN."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Software Engineering is an Engineering discipline concerned with all aspects of software production. About Software Engineering, it is correct to state that:",
+        "options": [
+            "A. Its only challenge is dealing with the increase in diversity, demands for shorter delivery times, and the development of reliable software.",
+            "B. Approximately 40% of software costs are for development; 60% are testing costs. For customized software, evolution costs often exceed development costs.",
+            "C. Its main activities are: software specification, software development, software validation, and software evolution.",
+            "D. Good software must provide the functionality and leisure required by the user; in addition, it must be reliable and easy to maintain and use.",
+            "E. Systems Engineering is concerned with all aspects of computer system development, including Hardware Engineering and process. Software Engineering is a specific part of this more general process."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "UX is the acronym for user experience. These are benefits that UX optimization can bring in software development, EXCEPT:",
+        "options": [
+            "A. Greater usability of platforms.",
+            "B. Increased consumer confidence in your solution.",
+            "C. Decrease in complaint rates.",
+            "D. Lower conversion rates.",
+            "E. Optimization of customer support professionals’ work."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "An object-oriented language must provide support for three key language features, which are:",
+        "options": [
+            "A. Polymorphism, recursion, and inheritance.",
+            "B. Abstract data types, inheritance, and dynamic binding.",
+            "C. Abstract data types, recursion, and dynamic binding.",
+            "D. Single inheritance, multiple inheritance, and nested inheritance.",
+            "E. Abstract data types, monads, and encapsulation."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Who issues the digital certificates used by HTTPS?",
+        "options": [
+            "A. Any developer who creates a website.",
+            "B. The company that hosts the website.",
+            "C. A Certification Authority.",
+            "D. The user’s browser.",
+            "E. The web server itself automatically."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the main difference between the GET and POST methods?",
+        "options": [
+            "A. The GET method sends the data in the URL, while POST sends it in the request body.",
+            "B. The POST method is used only on local servers, while GET works on the internet.",
+            "C. The GET method allows data encryption, while POST does not.",
+            "D. The POST method cannot be used in HTML forms, while GET can.",
+            "E. The GET method is more secure than POST."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What is the main function of a constructor in a class?",
+        "options": [
+            "A. Create a method that can be inherited by other classes.",
+            "B. Initialize the attributes of an object at the moment of its creation.",
+            "C. Protect the class attributes against improper changes.",
+            "D. Automatically delete objects not used by the program.",
+            "E. Override the methods of a base class in a derived class."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "How to sort the records of a table in descending order by a column called \"price\"?",
+        "options": [
+            "A. SELECT * FROM table ORDER BY price",
+            "B. SELECT * FROM table ORDER price DESC",
+            "C. SELECT * FROM table SORT price",
+            "D. SELECT * FROM table ORDER BY price DESC",
+            "E. SELECT * FROM table ORDER price BY DESC"
+        ],
+        "answer": 3
+    },
+    {
+        
     }
 ]
