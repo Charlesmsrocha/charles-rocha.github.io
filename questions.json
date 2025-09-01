@@ -757,6 +757,113 @@
         "answer": 3
     },
     {
-        
+        "question": "It is composed of computer networks that are characterized by anonymity, encryption, decentralization, and open-source code, where content is normally inaccessible by conventional search tools. The excerpt presents the definition of:",
+        "Options":[
+            "A) Anonymous browsing.",
+           " B) Semantic Web.",
+            "C) Deep Web.",
+            "D) Surface Web.",
+            "E) Web Service."
+        ],
+        "answer":2
+    },
+    {
+        "question": "Which of the following operating systems is an example of a single-tasking system?",
+        "Options":[
+            "A) Windows 10.",
+            "B) Linux Ubuntu.",
+            "C) MacOS.",
+            "D) MS-DOS.",
+            "E) Android."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What can happen in an operating system if a segmentation fault occurs?",
+        "Options":[
+            "A) The system crashes due to an invalid attempt at memory access.",
+            "B) The processor is automatically shut down.",
+            "C) The operating system automatically corrects the error.",
+            "D) The program that caused the fault continues to run normally.",
+            "E) The error does not impact program execution."
+        ],
+        "answer": 0
+    },
+    {
+        "Question": "One of the main functions of an operating system is to provide an interface between the user and the hardware, as well as to manage resources efficiently. Considering this definition and the Windows 11 Home environment, select the correct alternative.",
+        "Options":[
+            "A) The operating system runs programs and allows hardware access, but this management occurs through cloud servers connected to the user's account.",
+            "B) The control of external devices, such as printers and USB drives, is performed by firmware embedded in these devices themselves, without the need for interaction with the operating system.",
+            "C) Installed applications directly define how and when data should be written to the disk, without depending on services or routines of the operating system.",
+            "D) Windows 11 offers a graphical interface based on windows and menus, with tools such as File Explorer and Control Panel, which allow configuring devices, accounts, network, and system preferences.",
+            "E) The distribution of tasks and the use of RAM are automatically defined by the hardware, while the operating system only displays this information to the user."
+        ],
+        "answer": 3
+    },
+    {
+        "Question": "During the process of data integration and analysis, it is common to perform transformations to adjust data to the needs of the target systems, ensure consistency, and facilitate interpretation. Select the alternative that represents a typical data transformation operation in the context of ETL (Extract, Transform, Load).",
+        "Options":[
+            "A) Encrypting the data before transmitting it over the network.",
+            "B) Consolidating different date formats into a single standard in the destination system.",
+            "C) Deleting duplicate records from the original database.",
+            "D) Applying compression to log files to reduce disk usage.",
+            "E) Creating automatic backups before executing complex queries."
+        ],
+        "answer": 1
+    },
+    {
+        "Question": "In a computerized administrative management environment, the intention is to restrict access to certain system modules according to the employee's position. Select the alternative that indicates the most appropriate approach to implement this access control measure.",
+        "Options":[
+            "A) Allow each employee to individually define which modules they wish to access, as needed.",
+            "B) Configure the system for unrestricted access and monitor access via logs for later auditing.",
+            "C) Create accounts per department with broad permissions and share the credentials among users of the same department.",
+            "D) Adopt role-based access control (RBAC), defining specific permissions by function/position in the system.",
+            "E) Use multi-factor authentication without the need to define permissions, as this guarantees sufficient security."
+        ],
+        "answer": 3
+    },
+    {
+        "Question": "When it comes to cybersecurity, the term 'Ransomware' refers to:",
+        "Options":[
+            "A) malware that seeks to phish for information through a trojan horse",
+            "B) malware that prevents you from using your computer or accessing specific files on your computer if a ransom is not paid",
+            "C) malware that poisons the DNS and impairs access to a URL",
+            "D) malware that uses malicious code to replicate without apparent motivation",
+            "E) a type of virus that oxidizes the motherboard"
+        ],
+        "answer": 1
+    },
+    {
+        "Question": "In a two-dimensional matrix 'mat[3][2]', how many integer elements can be stored?",
+        "Options":[
+            "A) 2",
+            "B) 3",
+            "C) 5",
+            "D) 6",
+            "E) 8"
+        ],
+        "answer": 3
+    },
+    {
+        "Question": "In the IPv4 addressing model, IP addresses are divided into classes for different network purposes. Considering the structure of the classes and their default masks, which subnet mask corresponds to Class C, traditionally used for small networks with up to 254 hosts?",
+        "Options":[
+            "A) 255.0.0.0",
+            "B) 255.255.0.0",
+            "C) 255.255.128.0",
+            "D) 255.255.255.0",
+            "E) 255.255.255.255"
+        ],
+        "answer": 3
+    },
+    {
+        "Question": "Regarding the functioning of a computer, select the correct alternative.",
+        "Options":[
+            "A) RAM permanently stores the operating system and performs the hardware verification process (POST) when the computer is turned on.",
+            "B) The hard drive (HD) verifies components when the system is turned on and directly executes the programs in use.",
+            "C) The BIOS stores the system's startup instructions and performs the POST (Power-On Self Test) when the computer is turned on.",
+            "D) The CPU (central processing unit) stores the system's startup instructions and controls the peripheral devices.",
+            "E) The motherboard executes programs, performs hardware verification, and loads the operating system directly from the CPU."
+        ],
+        "answer": 2
     }
 ]
