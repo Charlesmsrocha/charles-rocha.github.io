@@ -570,15 +570,15 @@
         "answer": 4
     },
     {
-       "question": "In modern operating systems, each process is controlled and monitored by specific system structures. Mark the alternative that correctly describes what happens when a process enters the \"ready\" state.",
-       "options": [
-           "A. The process is waiting for the completion of an input or output operation.",
-           "B. The process has finished and is releasing system resources.",
-           "C. The process is waiting to be allocated by the processor for execution.",
-           "D. The process is currently being executed by the processor.",
-           "E. The process is in permanent suspension due to a critical error."
-       ],
-       "answer": 2
+        "question": "In modern operating systems, each process is controlled and monitored by specific system structures. Mark the alternative that correctly describes what happens when a process enters the \"ready\" state.",
+        "options": [
+            "A. The process is waiting for the completion of an input or output operation.",
+            "B. The process has finished and is releasing system resources.",
+            "C. The process is waiting to be allocated by the processor for execution.",
+            "D. The process is currently being executed by the processor.",
+            "E. The process is in permanent suspension due to a critical error."
+        ],
+        "answer": 2
     },
     {
         "question": "About event-driven programming, it is correct to say that:",
@@ -758,18 +758,18 @@
     },
     {
         "question": "It is composed of computer networks that are characterized by anonymity, encryption, decentralization, and open-source code, where content is normally inaccessible by conventional search tools. The excerpt presents the definition of:",
-        "Options":[
+        "options": [
             "A) Anonymous browsing.",
-           " B) Semantic Web.",
+            " B) Semantic Web.",
             "C) Deep Web.",
             "D) Surface Web.",
             "E) Web Service."
         ],
-        "answer":2
+        "answer": 2
     },
     {
         "question": "Which of the following operating systems is an example of a single-tasking system?",
-        "Options":[
+        "options": [
             "A) Windows 10.",
             "B) Linux Ubuntu.",
             "C) MacOS.",
@@ -780,7 +780,7 @@
     },
     {
         "question": "What can happen in an operating system if a segmentation fault occurs?",
-        "Options":[
+        "options": [
             "A) The system crashes due to an invalid attempt at memory access.",
             "B) The processor is automatically shut down.",
             "C) The operating system automatically corrects the error.",
@@ -790,8 +790,8 @@
         "answer": 0
     },
     {
-        "Question": "One of the main functions of an operating system is to provide an interface between the user and the hardware, as well as to manage resources efficiently. Considering this definition and the Windows 11 Home environment, select the correct alternative.",
-        "Options":[
+        "question": "One of the main functions of an operating system is to provide an interface between the user and the hardware, as well as to manage resources efficiently. Considering this definition and the Windows 11 Home environment, select the correct alternative.",
+        "options": [
             "A) The operating system runs programs and allows hardware access, but this management occurs through cloud servers connected to the user's account.",
             "B) The control of external devices, such as printers and USB drives, is performed by firmware embedded in these devices themselves, without the need for interaction with the operating system.",
             "C) Installed applications directly define how and when data should be written to the disk, without depending on services or routines of the operating system.",
@@ -801,8 +801,8 @@
         "answer": 3
     },
     {
-        "Question": "During the process of data integration and analysis, it is common to perform transformations to adjust data to the needs of the target systems, ensure consistency, and facilitate interpretation. Select the alternative that represents a typical data transformation operation in the context of ETL (Extract, Transform, Load).",
-        "Options":[
+        "question": "During the process of data integration and analysis, it is common to perform transformations to adjust data to the needs of the target systems, ensure consistency, and facilitate interpretation. Select the alternative that represents a typical data transformation operation in the context of ETL (Extract, Transform, Load).",
+        "options": [
             "A) Encrypting the data before transmitting it over the network.",
             "B) Consolidating different date formats into a single standard in the destination system.",
             "C) Deleting duplicate records from the original database.",
@@ -812,8 +812,8 @@
         "answer": 1
     },
     {
-        "Question": "In a computerized administrative management environment, the intention is to restrict access to certain system modules according to the employee's position. Select the alternative that indicates the most appropriate approach to implement this access control measure.",
-        "Options":[
+        "question": "In a computerized administrative management environment, the intention is to restrict access to certain system modules according to the employee's position. Select the alternative that indicates the most appropriate approach to implement this access control measure.",
+        "options": [
             "A) Allow each employee to individually define which modules they wish to access, as needed.",
             "B) Configure the system for unrestricted access and monitor access via logs for later auditing.",
             "C) Create accounts per department with broad permissions and share the credentials among users of the same department.",
@@ -823,8 +823,8 @@
         "answer": 3
     },
     {
-        "Question": "When it comes to cybersecurity, the term 'Ransomware' refers to:",
-        "Options":[
+        "question": "When it comes to cybersecurity, the term 'Ransomware' refers to:",
+        "options": [
             "A) malware that seeks to phish for information through a trojan horse",
             "B) malware that prevents you from using your computer or accessing specific files on your computer if a ransom is not paid",
             "C) malware that poisons the DNS and impairs access to a URL",
@@ -834,8 +834,8 @@
         "answer": 1
     },
     {
-        "Question": "In a two-dimensional matrix 'mat[3][2]', how many integer elements can be stored?",
-        "Options":[
+        "question": "In a two-dimensional matrix 'mat[3][2]', how many integer elements can be stored?",
+        "options": [
             "A) 2",
             "B) 3",
             "C) 5",
@@ -845,8 +845,8 @@
         "answer": 3
     },
     {
-        "Question": "In the IPv4 addressing model, IP addresses are divided into classes for different network purposes. Considering the structure of the classes and their default masks, which subnet mask corresponds to Class C, traditionally used for small networks with up to 254 hosts?",
-        "Options":[
+        "question": "In the IPv4 addressing model, IP addresses are divided into classes for different network purposes. Considering the structure of the classes and their default masks, which subnet mask corresponds to Class C, traditionally used for small networks with up to 254 hosts?",
+        "options": [
             "A) 255.0.0.0",
             "B) 255.255.0.0",
             "C) 255.255.128.0",
@@ -856,13 +856,112 @@
         "answer": 3
     },
     {
-        "Question": "Regarding the functioning of a computer, select the correct alternative.",
-        "Options":[
+        "question": "Regarding the functioning of a computer, select the correct alternative.",
+        "options": [
             "A) RAM permanently stores the operating system and performs the hardware verification process (POST) when the computer is turned on.",
             "B) The hard drive (HD) verifies components when the system is turned on and directly executes the programs in use.",
             "C) The BIOS stores the system's startup instructions and performs the POST (Power-On Self Test) when the computer is turned on.",
             "D) The CPU (central processing unit) stores the system's startup instructions and controls the peripheral devices.",
             "E) The motherboard executes programs, performs hardware verification, and loads the operating system directly from the CPU."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The OWASP methodology is widely adopted by information security professionals and software developers as a reference for protecting web applications. Based on its principles, objectives, and contributions to security, mark the alternative that correctly describes the purpose of OWASP.",
+        "options": [
+            "A. It is a private company that sells commercial security solutions for mobile applications.",
+            "B. It is an open community that promotes best practices and offers free resources to identify, prevent, and correct vulnerabilities in web applications.",
+            "C. It is a set of mandatory international standards for security certification of data centers.",
+            "D. It is a methodology used exclusively by banks to prevent attacks on financial systems.",
+            "E. It is a repository of cryptographic algorithms approved by cyber defense agencies."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The Kanban methodology is widely used in software development and operations teams to promote continuous workflow, process visualization, and incremental improvement. Based on the principles and practices of Kanban, select the correct alternative.",
+        "options": [
+            "A. In Kanban, tasks are planned in sprints with a fixed duration, and only after the sprint ends is the board updated.",
+            "B. One of the premises of Kanban is to limit the number of tasks per employee, ensuring exact resource allocation.",
+            "C. Using Kanban prevents the accumulation of work-in-progress tasks, as it requires all tasks to be completed before new ones can be started.",
+            "D. One of the fundamental practices of Kanban is to limit work-in-progress (WIP) to improve flow and prevent bottlenecks.",
+            "E. Kanban eliminates the need for follow-up meetings, as its board removes any need for communication between members."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In secure communication systems, the combined use of symmetric encryption, asymmetric encryption, and hash functions is common. In the TLS (Transport Layer Security) protocol, these techniques are used in different phases of the connection to ensure end-to-end security. Based on this context, select the correct alternative.",
+        "options": [
+            "A. In the TLS protocol, data is transmitted using asymmetric encryption throughout the entire session to ensure maximum confidentiality.",
+            "B. Key exchange in TLS 1.2 and earlier can use Diffie-Hellman based algorithms, but never RSA, due to lack of support for confidentiality.",
+            "C. The hash function in TLS is used only for server authentication and does not participate in verifying communication integrity.",
+            "D. In an RSA-based digital signature, the sender encrypts the entire message with their private key, allowing the receiver to verify its integrity and origin.",
+            "E. The TLS protocol uses asymmetric encryption only in the initial session negotiation, and is later replaced by symmetric encryption for data transmission."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "The principles of Confidentiality, Integrity, and Availability form the basis of information security and are essential for the secure functioning of systems in any organization. These concepts guide the planning of policies, controls, and incident responses. Select the alternative that presents the application of these concepts in the context of information security.",
+        "options": [
+            "A. Confidentiality ensures that only authorized people access sensitive information.",
+            "B. Integrity ensures that data is always available, even when modified by third parties.",
+            "C. Reliability ensures that data remains secret, preventing undue access.",
+            "D. Availability is related to protection against unauthorized changes to data.",
+            "E. Integrity allows any employee to change data, as long as they are logged into the system."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "It is a concept that redefines how data cables are used in companies and homes. Its objective is to keep the physical network organized and standardized, with the use of connectors and cables with satisfactory performance for their intended purpose. Its layout allows for the installation of equipment such as servers, computers, and other network accessories with a high degree of organization and reliability. Mark the CORRECT alternative that corresponds to the described concept.",
+        "options": [
+            "A. Network Architecture.",
+            "B. Computer Network Nodes.",
+            "C. Network Protocols.",
+            "D. Network Topologies.",
+            "E. Structured Cabling."
+        ],
+        "answer": 4
+    },
+    {
+        "question": "During an internal audit, a company identified that even after implementing various security controls, such as strong authentication, data encryption, and network segmentation, there was still a potential for exposure to certain threats. The technical team classified this risk as acceptable given the mitigation costs and estimated impact. What is this type of risk called, which remains in the organizational environment even after the application of controls and is considered tolerable by management?",
+        "options": [
+            "A. Eliminated risk.",
+            "B. Residual risk.",
+            "C. Transferred risk.",
+            "D. Untreated risk.",
+            "E. Operational risk."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Consider a 5-position vector named \"grades\". Select the alternative that presents the pseudocode snippet that stores the value 7.5 in the third position of this vector.",
+        "options": [
+            "A. grades[2] ← 7.5",
+            "B. grades[3] ← 7.5",
+            "C. grades(3) = 7.5",
+            "D. grades[1] = 7.5",
+            "E. grades{3} ← 7.5"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A computer technician is checking processes that are consuming a lot of resources on the Windows operating system to identify applications that might be crashing or operating suspiciously. To do this, he decides to use PowerShell, which allows him to list, filter, and manipulate processes in real time. What PowerShell command should be used in this situation?",
+        "options": [
+            "A. List-Process.",
+            "B. Process-Viewer.",
+            "C. Show-Tasks.",
+            "D. Get-Process.",
+            "E. Run-Processes."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A staff member downloads a malicious attachment from an email. Software installed on their computer detects the ransomware threat before any encryption occurs, automatically blocks the attack, and notifies the security team. This type of software is an example of:",
+        "options": [
+            "A. a reverse proxy (like NGINX), which manages requests and redirects access to internal servers, issuing alerts to the Security Center.",
+            "B. an antivirus (like Hadoop), which performs periodic scans to detect malicious files and issues real-time alerts.",
+            "C. an Endpoint Detection and Response (EDR) solution (like Microsoft Defender for Endpoint), which monitors local activities and responds to threats.",
+            "D. a perimeter firewall (like pfSense or Cisco ASA), which controls external traffic to protect the internal network.",
+            "E. an incident response system (like Spark), which monitors suspicious activities and responds in real-time."
         ],
         "answer": 2
     }
