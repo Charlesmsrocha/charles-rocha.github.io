@@ -964,5 +964,115 @@
             "E. an incident response system (like Spark), which monitors suspicious activities and responds in real-time."
         ],
         "answer": 2
+    },
+    {
+        "question": "Upon noticing that their laptop is getting very hot, a user decides to request the services of a technician. After performing an internal cleaning, replacing the thermal paste, and verifying that the fan and cooler heatsink are working normally, the technician finds that the computer is still overheating. Check the option that indicates a viable solution to reduce the overheating of this laptop.",
+        "options": [
+            "A. Installation of an extra internal cooler, specific for laptops.",
+            "B. Replacement of the laptop charger, which acts as a temperature regulator.",
+            "C. Formatting the hard drive and installing a new operating system.",
+            "D. Installation of an external heat extractor cooler for laptops.",
+            "E. Replacement of the RAM modules, which are responsible for generating heat."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Electronic soldering is an indispensable process for maintenance services, such as repairing boards and replacing electronic components. In this context, the equipment and consumables used for electronic soldering and desoldering are:",
+        "options": [
+            "A. Soldering iron, solder sucker, BGA station, and aluminum solder.",
+            "B. Soldering iron, solder sucker, soldering station, and pasty flux.",
+            "C. Soldering iron, lead tin, soldering paste, and blower.",
+            "D. Soldering iron, blower, aluminum solder, and pasty flux.",
+            "E. Soldering iron, lead tin, soldering paste, and solder sucker."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A good practice in preventive maintenance is to keep the motherboard's BIOS or UEFI updated. Performing this procedure is important because:",
+        "options": [
+            "A. It avoids the need to replace the motherboard and increases memory.",
+            "B. It increases graphic performance and reduces consumption by updating the drivers.",
+            "C. It improves compatibility with new hardware and resolves possible bugs.",
+            "D. It allows you to run any operating system without restrictions.",
+            "E. It increases the processor's clock speed and improves cooling."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "During maintenance on a hard drive of a Linux server, a technician needs to check and try to recover bad sectors (badblocks). Among the options below, the most suitable tool for this task is:",
+        "options": [
+            "A. fdisk -c",
+            "B. sblk -f",
+            "C. cfdisk",
+            "D. fsck -c",
+            "E. goodblocks -v"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "TDP (Thermal Design Power) indicates:",
+        "options": [
+            "A. The maximum power an ATX power supply can provide to the CPU.",
+            "B. The thermal protection activated when the CPU temperature reaches its maximum.",
+            "C. The maximum heat a CPU is designed to dissipate under normal use.",
+            "D. The safe temperature limit for a processor to operate under typical load.",
+            "E. The heat the machine must generate."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Within the Unity game engine, a common type of game object is the Rigidbody, which has among its configurable options the item isKinematic. Regarding the difference between a GameObject with a standard Rigidbody and another with the isKinematic option enabled, check the correct option.",
+        "options": [
+            "A. A kinematic Rigidbody can only have its position changed by animation, never by script or physical forces. A standard Rigidbody accepts any of the three options.",
+            "B. A GameObject with a kinematic Rigidbody is not affected by gravity but can be affected by any other forces.",
+            "C. A kinematic Rigidbody causes the object to not suffer or exert force or collision effects. A standard Rigidbody that collides with it will not suffer any effect.",
+            "D. A kinematic Rigidbody is not affected by forces but can be moved via scripts. A standard Rigidbody is controlled by the Unity physics engine.",
+            "E. None of the alternatives."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Balancing in competitive games, such as League of Legends, requires frequent adjustments to characters to ensure:",
+        "options": [
+            "A. The elimination of post-launch updates to preserve the original experience.",
+            "B. That all characters have identical statistics, regardless of their abilities.",
+            "C. A balance between strategic viability and diversity of choices, avoiding rigid metas.",
+            "D. An exclusive focus on graphics and narrative, without changes to mechanics.",
+            "E. The creation of new characters in a simpler way."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In the development of digital games, it is essential to balance different elements to provide an engaging experience for the player. Jesse Schell (2019) proposed the Game Design Tetrad, which organizes the main aspects that influence the creation of a game. According to Schell's Tetrad, a game is structured through:",
+        "options": [
+            "A. Mechanics, aesthetics, technology, and narrative.",
+            "B. Artificial intelligence, physics, rendering, and animation.",
+            "C. Gameplay, engine, graphics, and soundtrack.",
+            "D. Programming, modeling, testing, and balancing.",
+            "E. Difficulty, art, narrative, mechanics."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What is the main difference between the Eclipse and NetBeans IDEs?",
+        "options": [
+            "A. Eclipse is used only for Java, while NetBeans supports multiple languages.",
+            "B. NetBeans is lighter and faster than Eclipse.",
+            "C. NetBeans does not support web development, while Eclipse does.",
+            "D. Eclipse is highly modular and customizable, while NetBeans offers greater native integration with tools.",
+            "E. NetBeans only allows development on small projects, while Eclipse supports large corporate systems."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In Eclipse Java Oxygen, which shortcut is used to run a Java program?",
+        "options": [
+            "A. Ctrl + R",
+            "B. F5",
+            "C. Ctrl + F11",
+            "D. Alt + F5",
+            "E. Shift + F10"
+        ],
+        "answer": 2
     }
 ]
